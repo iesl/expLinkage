@@ -1,0 +1,56 @@
+{
+
+		"config_name": 	"faces",
+
+		"cuda"		: 	true,
+		"seed"		: 	1234,
+
+		"mode"			: "train",
+		"resultDir"		: "auto",
+		"newDirSuffix"	: "",
+
+		"clusterFile"	: "../data/spiralSmallRotated",
+		"dataDir" 		: "../data/spiralSmallRotated",
+		"logFile"		: "logFile.txt",
+		"bestModel"		: "",
+		"logConsole"	: true,
+
+		"trainObj"		: "",
+		"trainModel"	: true,
+		"trainAlpha"	: false,
+		"threshold"		: 2,
+		"margin"		: 1,
+		"normalizeLoss"	: false,
+		"normExpLinkLoss": false,
+		"trainExpLink"	: true,
+		"scaleDist"		: false,
+		"numErrorTriplet": 0,
+
+		"numEpoch"		: 1000,
+		"numEpToAvg"	: 10,
+		"epochToEval"	: 10000,
+		"epochToWrite"	: 10000,
+		"epsilon"		: 0.0001,
+		"makeScorePlots": false,
+
+		"trainFrac"		: 1.0,
+		"testFrac"		: 0.0,
+		"devFrac"		: 0.0,
+		"shuffleData"	: true,
+
+
+		"inferenceMethods"	: ["singleLink@t"],
+		"metricsForEval"	: ["f1", "dendPurity"],
+
+		"modelType"		: "linear",
+		"model"			: "AvgPerceptron",
+		"inputDim"		: 2,
+		"outDisSim"		: true,
+		"lr"			: 0.1,
+		"l2Alpha"		: 0.1,
+		"alphaLr"		: 0.01,
+		"alphaInitMu"	: 0.0,
+		"alphaInitSigma": 0.1,
+		"idenInit"		: false
+
+}

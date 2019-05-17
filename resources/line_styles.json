@@ -1,0 +1,104 @@
+{
+  "test": {
+    "style": {
+      "label": "Test",
+      "color": "orange",
+      "mec": "orange",
+      "marker": "*",
+      "ls": "-",
+      "lw": 2,
+      "mew": 2,
+      "ms": 6,
+      "elinewidth": 0.1
+    },
+    "fill style": {
+      "color": "orange",
+      "alpha": 0.3
+    }
+  },
+  "dev": {
+    "style": {
+      "label": "Dev",
+      "color": "salmon",
+      "mec": "salmon",
+      "marker": "*",
+      "ls": "-",
+      "lw": 2,
+      "mew": 2,
+      "ms": 6,
+      "elinewidth": 0.1
+    },
+    "fill style": {
+      "color": "salmon",
+      "alpha": 0.3
+    }
+  },
+  "dev_euclid": {
+    "style": {
+      "label": "Dev(Euclidean)",
+      "color": "lightseagreen",
+      "mec": "lightseagreen",
+      "marker": "*",
+      "ls": "-",
+      "lw": 2,
+      "mew": 2,
+      "ms": 6,
+      "elinewidth": 0.1
+    },
+    "fill style": {
+      "color": "lightseagreen",
+      "alpha": 0.3
+    }
+  },
+  "test_euclid": {
+    "style": {
+      "label": "Test(Euclidean)",
+      "color": "olive",
+      "mec": "olive",
+      "marker": "*",
+      "ls": "-",
+      "lw": 2,
+      "mew": 2,
+      "ms": 6,
+      "elinewidth": 0.1
+    },
+    "fill style": {
+      "color": "olive",
+      "alpha": 0.3
+    }
+  },
+  "train": {
+    "style": {
+      "label": "Train",
+      "color": "maroon",
+      "mec": "maroon",
+      "marker": "o",
+      "ls": "-",
+      "lw": 2,
+      "mew": 2,
+      "ms": 6,
+      "elinewidth": 0.1
+    },
+    "fill style": {
+      "color": "red",
+      "alpha": 0.3
+    }
+  },
+  "train_euclid": {
+    "style": {
+      "label": "Train(Euclidean)",
+      "color": "darkgreen",
+      "mec": "darkgreen",
+      "marker": "o",
+      "ls": "-",
+      "lw": 2,
+      "mew": 2,
+      "ms": 6,
+      "elinewidth": 0.1
+    },
+    "fill style": {
+      "color": "darkgreen",
+      "alpha": 0.3
+    }
+  }
+}

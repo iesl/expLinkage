@@ -1,0 +1,55 @@
+{
+
+		"config_name": 	"rexa",
+
+		"cuda"		: 	true,
+		"seed"		: 	1234,
+
+		"mode"			: "train",
+		"resultDir"		: "auto",
+		"newDirSuffix"	: "",
+
+		"clusterFile"	: "",
+		"dataDir" 		: "../data/rexa",
+		"logFile"		: "logFile.txt",
+		"bestModel"		: "",
+		"logConsole"	: true,
+
+		"trainObj"		: "bestWithin_bestAcross",
+		"trainModel"	: true,
+		"trainAlpha"	: false,
+		"threshold"		: 0.0,
+		"margin"		: 2.0,
+		"normalizeLoss"	: false,
+		"normExpLinkLoss": true,
+		"trainExpLink"	: true,
+		"scaleDist"		: false,
+		"numErrorTriplet": 0,
+
+		"numEpoch"		: 500,
+		"numEpToAvg"	: 10,
+		"epochToEval"	: 1000,
+		"epochToWrite"	: 1000,
+		"epsilon"		: 0.0001,
+		"makeScorePlots": false,
+
+		"trainFrac"		: 0.375,
+		"testFrac"		: 0.375,
+		"devFrac"		: 0.25,
+		"shuffleData"	: true,
+
+
+		"inferenceMethods"	: ["singleLink", "singleLink@t", "avgLink", "avgLink@t", "compLink", "compLink@t","linkage_auto","linkage_auto@t","random","recSparsest"],
+		"metricsForEval"	: ["f1", "dendPurity"],
+
+		"modelType"		: "avgLinear",
+		"inputDim"		: 14,
+		"outDisSim"		: true,
+		"lr"			: 0.1,
+		"l2Alpha"		: 0.01,
+		"alphaLr"		: 0.2,
+		"alphaInitMu"	: 0.0,
+		"alphaInitSigma": 0.1,
+		"idenInit"		: false
+
+}
