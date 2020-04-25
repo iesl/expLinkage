@@ -67,3 +67,6 @@ Config files for all experiments in the paper are present in [config](config) fo
 
 ## Notes ##
 - *Code from **xcluster** repository is only used for evaluating dendrogram purity and is not crucial for training as such (if evaluation does not involve computing dendrogram purity or no evaluation on dev set is peformed during training).
+- Compatible cuda and pytorch versions:
+  - cudnn : version 7.6.0, (build: cuda10.0_0)  
+  - pytorch : version 1.2.0 (build cuda100py36h938c94c_0)
